@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-image: url("../img/background.jpg");
+  background-size: 100%;
+  background-attachment: fixed;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="only light">
+    <title>Creating FLashcards</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/create-page.css">
+    <link rel="stylesheet" href="css/adaptive.css">
+</head>
+
+<body>
+    <div class="form">
+        <input type="text" class="form__title" placeholder="Add title" autocomplete="off" autofocus>
+        <textarea class="form__description" placeholder="Add description"></textarea>
+
+        <hr>
+
+        <div class="form-blocks">
+            <div class="form-block" data-id="0">
+
+                <div class="form-block__inner">
+                    <label class="form-block__label">
+                        Question
+                        <input class="form-block__field" name="question" type="text" placeholder="New question" data-id="0-q">
+                    </label>
+                    <label class="form-block__label">
+                        Answer
+                        <input class="form-block__field" name="answer" type="text" placeholder="New answer" data-id="0-a">
+                    </label>
+                </div>
+                <hr>
+            </div>
+        </div>
+
+        <button class="form__add-button default-button" onclick="addBlock()">&plus;</button>
+
+        <button type="submit" class="form__save-button default-button"
+            onclick="validation()">Save</button>
+    </div>
+
+    <script src="js/create-page.js"></script>
+</body>
+
+</html>
