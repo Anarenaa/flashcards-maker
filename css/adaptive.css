@@ -8,6 +8,23 @@
     transform: scale(1.05);
     background-color: rgba(10, 59, 102, 0.8);
   }
+  .ready-made-test:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .ready-made-test__title a:hover {
+    color: hsl(208, 82%, 92%);
+  }
+  .form__add-button:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  .form__save-button:hover {
+    background-color: hsla(0, 0%, 100%);
+    color: hsl(208, 82%, 22%);
+  }
 }
 @media (max-width: 1024px) {
   .ready-made-tests {
