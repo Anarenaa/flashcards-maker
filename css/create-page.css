@@ -85,11 +85,6 @@
   -webkit-box-shadow: 0 0 8px hsla(0, 0%, 100%, 0.5);
   box-shadow: 0 0 8px hsla(0, 0%, 100%, 0.5);
 }
-.form__add-button:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
 
 .form-block__remove-button {
   padding: 0;
@@ -109,10 +104,6 @@
   -webkit-transition: all 0.3s;
   -o-transition: all 0.3s;
   transition: all 0.3s;
-}
-.form__save-button:hover {
-  background-color: hsla(0, 0%, 100%);
-  color: hsl(208, 82%, 22%);
 }
 
 .title-error {
