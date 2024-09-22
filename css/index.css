@@ -27,12 +27,6 @@
   -o-transition: 0.2s;
   transition: 0.2s;
 }
-.create-block__btn:hover {
-  -webkit-transform: scale(1.05);
-  -ms-transform: scale(1.05);
-  transform: scale(1.05);
-  background-color: rgba(10, 59, 102, 0.8);
-}
 
 .ready-made-tests {
   display: -ms-grid;
