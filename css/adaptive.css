@@ -47,6 +47,7 @@
   }
   .card {
     height: 40vh;
+    padding: 20px;
   }
   .swiper {
     width: 90vw;
