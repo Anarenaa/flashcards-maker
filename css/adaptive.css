@@ -45,6 +45,12 @@
   .form__save-button {
     width: 90%;
   }
+  .card {
+    height: 40vh;
+  }
+  .swiper {
+    width: 90vw;
+  }
 }
 @media (max-width: 375px) {
   .ready-made-tests {
