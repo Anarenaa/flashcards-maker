@@ -56,18 +56,10 @@
   -webkit-box-shadow: 0 7px 14px rgba(0, 0, 0, 0.3);
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.3);
 }
-.ready-made-test:hover {
-  -webkit-transform: scale(1.1);
-  -ms-transform: scale(1.1);
-  transform: scale(1.1);
-}
 .ready-made-test__title {
   font-size: 1.5em;
   margin-bottom: 10px;
   cursor: pointer;
-}
-.ready-made-test__title a:hover {
-  color: hsl(208, 82%, 92%);
 }
 .ready-made-test__description {
   font-size: 0.8em;
