@@ -2,6 +2,7 @@ const swiper = new Swiper('.swiper', {
     loop: true,
     slideToClickedSlide: true,
     slidesPerView: 1,
+    allowTouchMove: false,
   
     pagination: {
       clickable: false,
