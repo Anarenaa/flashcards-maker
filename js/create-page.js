@@ -67,6 +67,7 @@ function validation() {
 function saveTest() {
     const title = titleElement.value;
     const description = descriptionElement.value;
+    const uniqueId = title + '-' + Date.now();
     
     const questionsList = [];
     const answersList = [];
@@ -80,10 +81,10 @@ function saveTest() {
         const answer = answerInput.value;
 
         if (question) {
-            questionsList.push({ id: `${index}-q-${title}`, text: question });
+            questionsList.push({ id: `${index}-q-${uniqueId}`, text: question });
         }
         if (answer) {
-            answersList.push({ id: `${index}-a-${title}`, text: answer });
+            answersList.push({ id: `${index}-a-${uniqueId}`, text: answer });
         }
     });
 
@@ -92,6 +93,7 @@ function saveTest() {
     const previewObject = {
         title,
         description,
+        uniqueId,
         questions: questionsList,
         answers: answersList,
     };

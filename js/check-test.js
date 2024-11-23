@@ -6,7 +6,7 @@ const swiperWrapper = document.querySelector('.swiper-wrapper');
 
 swiperWrapper.innerHTML = '';
 
-const test = previewTest.find(t => t.title === testTitle);
+const test = previewTest.find(t => t.uniqueId === testTitle);
 
 if (test) {
     const { questions, answers } = test;

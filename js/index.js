@@ -11,11 +11,11 @@ function renderTestList() {
     let previewTestHTML = '';
 
     previewTest.forEach((test, index) => {
-        const { title, description } = test;
+        const { title, description, uniqueId } = test;
         const html = `
         <div class="ready-made-test">
             <h2 class="ready-made-test__title">
-                <a href="check-test.html?title=${encodeURIComponent(title)}">
+                <a href="check-test.html?title=${encodeURIComponent(uniqueId)}">
                 ${title}
                 </a>
             </h2>
