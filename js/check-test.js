@@ -14,10 +14,10 @@ if (test) {
     questions.forEach((question, index) => {
         const answer = answers.find(a => a.id === question.id.replace('q-', 'a-'));
 
-        const fontSizeClassQ = question.text.length >= 100 ? 'text-more-100'
+        const fontSizeClassQ = question.text.length >= 150 ? 'text-more-150'
             : (question.text.length >= 50 ? 'text-more-50' : '');
 
-        const fontSizeClassA = answer.text.length >= 100 ? 'text-more-100'
+        const fontSizeClassA = answer.text.length >= 150 ? 'text-more-150'
             : (answer.text.length >= 50 ? 'text-more-50' : '');
 
         const html = `
